@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "182534009061",
+    "firebase_url": "https://chatonlineflitter.firebaseio.com",
+    "project_id": "chatonlineflitter",
+    "storage_bucket": "chatonlineflitter.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:182534009061:android:c5dec7b755ccc29e33240c",
+        "android_client_info": {
+          "package_name": "com.example.chatonline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "182534009061-l004bruj99e5g7cgijgsn1iraee4s6rp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.chatonline",
+            "certificate_hash": "40b67ec416083422179030c285913e644dbe1053"
+          }
+        },
+        {
+          "client_id": "182534009061-ti5h76pli3j1b9boa8b5m5re9jpoeh37.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPHmw5-6Y5OmDLjUgD9GIFNaeNjnQEgtA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "182534009061-ti5h76pli3j1b9boa8b5m5re9jpoeh37.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
