@@ -2,9 +2,9 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
  
 void main() {
-  Firestore.instance.collection('teste');
+  Firestore.instance.collection('mensagens').document('msg1').setData({'from': 'Wally', 'texto': 'Olá'});
 
-  runApp(MyApp());
+  runApp(MyApp());  
 }
  
 class MyApp extends StatelessWidget {
