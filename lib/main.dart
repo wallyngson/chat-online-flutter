@@ -1,18 +1,28 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
  
-void main() {
-  Firestore.instance.collection('mensagens').document('msg1').setData({'from': 'Wally', 'texto': 'Olá'});
+void main() async {
 
   runApp(MyApp());  
 }
- 
+
+final ThemeData kIOSTheme = ThemeData (
+  primarySwatch: Colors.orange,
+  primaryColor: Colors.grey[100],
+  primaryColorBrightness: Brightness.light,
+  );
+
 class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: 'ChatOnline',
       home: Home(),
+      debugShowCheckedModeBanner: false,
+      theme: (
+
+      ) ,
     );
   }
 }
